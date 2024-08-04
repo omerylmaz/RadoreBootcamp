@@ -16,6 +16,11 @@ Console.WriteLine($"Genel Müdür maaşı: {genelMudurMaas}");
 Console.WriteLine($"Programcı maaşı: {programciMaas}");
 Console.WriteLine($"Müdür maaşı: {mudurMaas}");
 
+double toplamMaas = stajyerMaas + genelMudurMaas + programciMaas + mudurMaas;
+
+Console.WriteLine();
+Console.WriteLine($"Toplam Maaş: {toplamMaas}");
+
 
 public interface IYonetebilir
 {
