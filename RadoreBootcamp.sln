@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34701.34
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RaddoreOOP", "RaddoreOOP\RaddoreOOP.csproj", "{146209EA-F696-45E8-AF48-18AF0961E00F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RaddoreOOP", "RaddoreOOP\RaddoreOOP.csproj", "{146209EA-F696-45E8-AF48-18AF0961E00F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InterfaceOdev", "InterfaceOdev\InterfaceOdev.csproj", "{F92E1908-FD5C-4F78-BD1A-E13CDDE9616A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SolidOdev", "SolidOdev\SolidOdev.csproj", "{8FE2D963-CDBD-4069-86F3-4105E14A39D6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{146209EA-F696-45E8-AF48-18AF0961E00F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{146209EA-F696-45E8-AF48-18AF0961E00F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{146209EA-F696-45E8-AF48-18AF0961E00F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F92E1908-FD5C-4F78-BD1A-E13CDDE9616A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F92E1908-FD5C-4F78-BD1A-E13CDDE9616A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F92E1908-FD5C-4F78-BD1A-E13CDDE9616A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F92E1908-FD5C-4F78-BD1A-E13CDDE9616A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8FE2D963-CDBD-4069-86F3-4105E14A39D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8FE2D963-CDBD-4069-86F3-4105E14A39D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8FE2D963-CDBD-4069-86F3-4105E14A39D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8FE2D963-CDBD-4069-86F3-4105E14A39D6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
