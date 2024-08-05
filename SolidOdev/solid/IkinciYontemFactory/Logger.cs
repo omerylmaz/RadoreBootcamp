@@ -8,28 +8,28 @@ namespace SolidOdev.solid.IkinciYontemFactory
 {
     public class Logger
     {
-        public ILogFactory _logFactory;
+        public ILogHandler _logHandler;
 
         public Logger(LogType type)
         {
-            _logFactory = GetInstance(type);
+            _logHandler = GetInstance(type);
         }
 
         public void LogKaydet(string message)
         {
-            _logFactory.WriteLog(message);
+            _logHandler.WriteLog(message);
         }
 
-        private ILogFactory GetInstance(LogType logType)
+        private ILogHandler GetInstance(LogType logType)
         {
             switch (logType)
             {
                 case LogType.Json:
-                    return new JsonLogFactory();
+                    return new JsonLogHandler();
                 case LogType.Xml:
-                    return new XmlLogFactory();
+                    return new XmlLogHandler();
                 case LogType.Db:
-                    return new DbLogFactory();
+                    return new DbLogHandler();
                 default:
                     throw new ArgumentException("There is no such log");
             }

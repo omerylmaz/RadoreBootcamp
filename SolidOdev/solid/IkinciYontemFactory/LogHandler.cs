@@ -6,14 +6,14 @@ using System.Threading.Tasks;
 
 namespace SolidOdev.solid.IkinciYontemFactory
 {
-    public interface ILogFactory
+    public interface ILogHandler
     {
         public void WriteLog(string message);
     }
-    public class DbLogFactory : ILogFactory
+    public class DbLogHandler : ILogHandler
     {
         public DbLog dbLog;
-        public DbLogFactory()
+        public DbLogHandler()
         {
             dbLog = new DbLog();
         }
@@ -23,10 +23,10 @@ namespace SolidOdev.solid.IkinciYontemFactory
         }
     }
 
-    public class JsonLogFactory : ILogFactory
+    public class JsonLogHandler : ILogHandler
     {
         public JsonLog jsonLog;
-        public JsonLogFactory()
+        public JsonLogHandler()
         {
             jsonLog = new JsonLog();
         }
@@ -36,10 +36,10 @@ namespace SolidOdev.solid.IkinciYontemFactory
         }
     }
 
-    public class XmlLogFactory : ILogFactory
+    public class XmlLogHandler : ILogHandler
     {
         public XmlLog xmlLog;
-        public XmlLogFactory()
+        public XmlLogHandler()
         {
             xmlLog = new XmlLog();
         }
